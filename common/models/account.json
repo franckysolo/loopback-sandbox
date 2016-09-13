@@ -1,0 +1,23 @@
+{
+  "name": "Account",
+  "plural": "Accounts",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "roleName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "identities": {
+      "type": "embedsOne",
+      "model": "Identity"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
