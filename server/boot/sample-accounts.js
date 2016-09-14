@@ -3,10 +3,11 @@
 // Not the same behaviour than my local work
 // Here i'm throwing an error Role a=has already name developpers
 module.exports = function (app) {
-
   console.log('Running sample-accounts.js')
   console.log(' ')
 
+
+/*
   var Account = app.models.Account,
       Role = app.models.Role,
       RoleMapping = app.models.RoleMapping;
@@ -60,5 +61,5 @@ module.exports = function (app) {
       // try using promise style same result
       //
       // ....
-
+*/
 };
