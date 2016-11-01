@@ -2,6 +2,7 @@
 // test with promise
 
 module.exports = function(app) {
+  /*
   var Account = app.models.Account,
       Role = app.models.Role,
       RoleMapping = app.models.RoleMapping;
@@ -48,5 +49,5 @@ module.exports = function(app) {
               if (error) throw error;
             });
         });
-
+*/
 };
